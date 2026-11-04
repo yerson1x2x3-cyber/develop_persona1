@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio de Prácticas Ágiles - SENATI</title>
-    <!-- CDN Oficial Corregido Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Hoja de Estilos -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-light">
 
-    <!-- Navbar Corregida -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
         <div class="container">
             <a class="navbar-brand fw-bold text-white" href="#" onclick="showPage('teoria')">
@@ -39,14 +35,12 @@
     </nav>
 
     <div class="container my-4">
-
         <!-- PÁGINA 1: FUNDAMENTOS ÁGILES -->
         <div id="page-teoria" class="page-section">
             <div class="p-4 mb-4 bg-primary text-white rounded-3 shadow-sm">
                 <h1 class="display-6 fw-bold"><i class="bi bi-rocket-takeoff-fill me-2"></i>Semana 12: Herramientas y Prácticas Ágiles</h1>
                 <p class="lead mb-0">Curso de Gestión de Proyectos de Software - Instructor Gino Nibin</p>
             </div>
-
             <div class="row g-4">
                 <div class="col-md-6">
                     <div class="card h-100 shadow-sm border-0">
@@ -61,7 +55,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-6">
                     <div class="card h-100 shadow-sm border-0">
                         <div class="card-body">
@@ -75,7 +68,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-6">
                     <div class="card h-100 shadow-sm border-0">
                         <div class="card-body">
@@ -89,107 +81,64 @@
                         </div>
                     </div>
                 </div>
-                
-<div class="col-md-6">
-    <div class="card h-100 shadow-sm border-0 border-start border-4 border-warning">
-        <div class="card-body">
-            <h5 class="card-title text-warning text-dark"><i class="bi bi-file-earmark-check me-2"></i>El Manifiesto Ágil - Mejorado US-01</h5>
-            <p class="card-text fw-bold">4 Valores fundamentales:</p>
-            <ol class="small">
-                <li>Individuos e interacciones sobre procesos y herramientas.</li>
-                <li>Software funcionando sobre documentación extensiva.</li>
-                <li>Colaboración con el cliente sobre negociación contractual.</li>
-                <li>Respuesta ante el cambio sobre seguir un plan.</li>
-            </ol>
-            <hr>
-            <p class="card-text fw-bold">12 Principios Ágiles (Resumen):</p>
-            <ul class="small text-muted">
-                <li>Satisfacción del cliente mediante entregas tempranas y continuas.</li>
-                <li>Bienvenida a cambios, incluso tardíos.</li>
-                <li>Entregas frecuentes de software funcional.</li>
-                <li>Trabajo conjunto entre negocio y desarrolladores.</li>
-                <li>Motivación y confianza en el equipo.</li>
-                <li>Comunicación cara a cara.</li>
-                <li>Software funcionando como medida de progreso.</li>
-                <li>Desarrollo sostenible y ritmo constante.</li>
-                <li>Atención continua a la excelencia técnica.</li>
-                <li>Simplicidad: maximizar trabajo no hecho.</li>
-                <li>Equipos auto-organizados generan mejores diseños.</li>
-                <li>Reflexión y ajustes regulares para mejorar efectividad.</li>
-            </ul>
-            <span class="badge bg-primary">US-01 Completado</span>
-        </div>
-    </div>
-</div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-0 border-start border-4 border-warning">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning text-dark"><i class="bi bi-file-earmark-check me-2"></i>El Manifiesto Ágil - Mejorado US-01</h5>
+                            <p class="card-text fw-bold">4 Valores fundamentales:</p>
+                            <ol class="small">
+                                <li>Individuos e interacciones sobre procesos y herramientas.</li>
+                                <li>Software funcionando sobre documentación extensiva.</li>
+                                <li>Colaboración con el cliente sobre negociación contractual.</li>
+                                <li>Respuesta ante el cambio sobre seguir un plan.</li>
+                            </ol>
+                            <hr>
+                            <p class="card-text fw-bold">12 Principios Ágiles (Resumen):</p>
+                            <ul class="small text-muted">
+                                <li>Satisfacción del cliente mediante entregas tempranas y continuas.</li>
+                                <li>Bienvenida a cambios, incluso tardíos.</li>
+                                <li>Entregas frecuentes de software funcional.</li>
+                                <li>Trabajo conjunto entre negocio y desarrolladores.</li>
+                                <li>Motivación y confianza en el equipo.</li>
+                                <li>Comunicación cara a cara.</li>
+                                <li>Software funcionando como medida de progreso.</li>
+                                <li>Desarrollo sostenible y ritmo constante.</li>
+                                <li>Atención continua a la excelencia técnica.</li>
+                                <li>Simplicidad: maximizar trabajo no hecho.</li>
+                                <li>Equipos auto-organizados generan mejores diseños.</li>
+                                <li>Reflexión y ajustes regulares para mejorar efectividad.</li>
+                            </ul>
+                            <span class="badge bg-primary">US-01 Completado</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
             <div class="text-end mt-4">
                 <button class="btn btn-primary btn-lg" onclick="showPage('guia')">Ir a Guía de Laboratorio <i class="bi bi-arrow-right ms-2"></i></button>
             </div>
         </div>
 
-        <!-- PÁGINA 2: GUÍA DE LABORATORIO GITHUB -->
+        <!-- PÁGINA 2: GUÍA -->
         <div id="page-guia" class="page-section d-none">
             <div class="bg-white p-4 rounded-3 shadow-sm border">
-                <h2 class="h3 text-dark fw-bold border-bottom pb-2 mb-4"><i class="bi bi-github me-2"></i>Laboratorio Práctico: Gestión Ágil en GitHub</h2>
-                
-                <div class="alert alert-info">
-                    <strong>Objetivo:</strong> Configurar un repositorio en GitHub para simular el flujo de trabajo de Scrum y Kanban con asignación de historias de usuario.
-                </div>
-
+                <h2 class="h3 text-dark fw-bold border-bottom pb-2 mb-4"><i class="bi bi-【entity-github¦canonical_name=GitHub】 me-2"></i>Laboratorio Práctico: Gestión Ágil en 【entity-GitHub¦canonical_name=GitHub】</h2>
+                <div class="alert alert-info"><strong>Objetivo:</strong> Configurar un repositorio en 【entity-GitHub¦canonical_name=GitHub】 para simular el flujo de trabajo de Scrum y Kanban.</div>
                 <div class="accordion" id="labAccordion">
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#step1">
-                                Paso 1: Creación del Repositorio y GitHub Project
-                            </button>
-                        </h2>
-                        <div id="step1" class="accordion-collapse collapse show" data-bs-parent="#labAccordion">
-                            <div class="accordion-body">
-                                <ol>
-                                    <li>Ingresar a <a href="https://github.com/" target="_blank">GitHub.com</a> e iniciar sesión.</li>
-                                    <li>Crear un nuevo repositorio público llamado <code>agile-scrum-lab</code>.</li>
-                                    <li>Ir a la pestaña <strong>Projects</strong> y seleccionar <strong>New Project</strong> -&gt; Plantilla <em>Board (Kanban)</em>.</li>
-                                </ol>
-                            </div>
-                        </div>
+                        <h2 class="accordion-header"><button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#step1">Paso 1: Creación del Repositorio y 【entity-GitHub¦canonical_name=GitHub】 Project</button></h2>
+                        <div id="step1" class="accordion-collapse collapse show" data-bs-parent="#labAccordion"><div class="accordion-body"><ol><li>Ingresar a 【entity-GitHub¦canonical_name=GitHub】.com e iniciar sesión.</li><li>Crear un nuevo repositorio público llamado <code>agile-scrum-lab</code>.</li><li>Ir a la pestaña Projects y seleccionar New Project -> Plantilla Board (Kanban).</li></ol></div></div>
                     </div>
-
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#step2">
-                                Paso 2: Definición del Backlog (Issues & Milestones)
-                            </button>
-                        </h2>
-                        <div id="step2" class="accordion-collapse collapse" data-bs-parent="#labAccordion">
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Crear un <strong>Milestone</strong> llamado <code>Sprint 1 - MVP</code>.</li>
-                                    <li>Registrar las Historias de Usuario como <strong>Issues</strong> (ej. <em>"Como usuario quiero iniciar sesión con email"</em>).</li>
-                                    <li>Vincular cada Issue al Milestone y asignarla a un miembro del equipo.</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <h2 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#step2">Paso 2: Definición del Backlog</button></h2>
+                        <div id="step2" class="accordion-collapse collapse" data-bs-parent="#labAccordion"><div class="accordion-body"><ul><li>Crear un Milestone llamado <code>Sprint 1 - MVP</code>.</li><li>Registrar las Historias de Usuario como Issues.</li><li>Vincular cada Issue al Milestone y asignarla.</li></ul></div></div>
                     </div>
-
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#step3">
-                                Paso 3: Flujo Kanban y Revisiones (Pull Requests)
-                            </button>
-                        </h2>
-                        <div id="step3" class="accordion-collapse collapse" data-bs-parent="#labAccordion">
-                            <div class="accordion-body">
-                                <p>Simular el avance de las tareas en el tablero:</p>
-                                <pre class="bg-dark text-white p-3 rounded"><code>git checkout -b feature/login-page
+                        <h2 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#step3">Paso 3: Flujo Kanban y PRs</button></h2>
+                        <div id="step3" class="accordion-collapse collapse" data-bs-parent="#labAccordion"><div class="accordion-body"><pre class="bg-dark text-white p-3 rounded"><code>git checkout -b feature/login-page
 git commit -m "feat: interfaz de inicio de sesión"
-git push origin feature/login-page</code></pre>
-                                <p class="mt-2">Abrir un <strong>Pull Request</strong> y realizar la revisión de calidad (QA/Testing) antes del merge a <code>main</code>.</p>
-                            </div>
-                        </div>
+git push origin feature/login-page</code></pre></div></div>
                     </div>
                 </div>
-
                 <div class="d-flex justify-content-between mt-4">
                     <button class="btn btn-secondary" onclick="showPage('teoria')"><i class="bi bi-arrow-left me-2"></i>Anterior</button>
                     <button class="btn btn-success btn-lg" onclick="showPage('kanban')">Probar Tablero Interactivo <i class="bi bi-arrow-right ms-2"></i></button>
@@ -197,67 +146,30 @@ git push origin feature/login-page</code></pre>
             </div>
         </div>
 
-        <!-- PÁGINA 3: TABLERO KANBAN INTERACTIVO -->
+        <!-- PÁGINA 3: KANBAN -->
         <div id="page-kanban" class="page-section d-none">
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <h3 class="fw-bold m-0"><i class="bi bi-kanban-fill me-2"></i>Simulador Kanban de Proyecto</h3>
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newTaskModal">
-                    <i class="bi bi-plus-lg me-1"></i> Nueva Tarea
-                </button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newTaskModal"><i class="bi bi-plus-lg me-1"></i> Nueva Tarea</button>
             </div>
-
             <div class="row g-3">
-                <div class="col-md-4">
-                    <div class="bg-white p-3 rounded-3 shadow-sm border border-top border-4 border-secondary h-100">
-                        <h5 class="fw-bold text-secondary mb-3"><i class="bi bi-list-task me-2"></i>Por Hacer (To Do)</h5>
-                        <div id="col-todo" class="kanban-list"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="bg-white p-3 rounded-3 shadow-sm border border-top border-4 border-warning h-100">
-                        <h5 class="fw-bold text-warning text-dark mb-3"><i class="bi bi-hourglass-split me-2"></i>En Proceso (In Progress)</h5>
-                        <div id="col-progress" class="kanban-list"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="bg-white p-3 rounded-3 shadow-sm border border-top border-4 border-success h-100">
-                        <h5 class="fw-bold text-success mb-3"><i class="bi bi-check2-all me-2"></i>Completado (Done)</h5>
-                        <div id="col-done" class="kanban-list"></div>
-                    </div>
-                </div>
+                <div class="col-md-4"><div class="bg-white p-3 rounded-3 shadow-sm border border-top border-4 border-secondary h-100"><h5 class="fw-bold text-secondary mb-3">Por Hacer (To Do)</h5><div id="col-todo" class="kanban-list"></div></div></div>
+                <div class="col-md-4"><div class="bg-white p-3 rounded-3 shadow-sm border border-top border-4 border-warning h-100"><h5 class="fw-bold text-warning text-dark mb-3">En Proceso (In Progress)</h5><div id="col-progress" class="kanban-list"></div></div></div>
+                <div class="col-md-4"><div class="bg-white p-3 rounded-3 shadow-sm border border-top border-4 border-success h-100"><h5 class="fw-bold text-success mb-3">Completado (Done)</h5><div id="col-done" class="kanban-list"></div></div></div>
             </div>
-
-            <div class="mt-4">
-                <button class="btn btn-secondary" onclick="showPage('guia')"><i class="bi bi-arrow-left me-2"></i>Volver a la Guía</button>
-            </div>
+            <div class="mt-4"><button class="btn btn-secondary" onclick="showPage('guia')"><i class="bi bi-arrow-left me-2"></i>Volver a la Guía</button></div>
         </div>
-
     </div>
 
-    <!-- Modal para Nueva Tarea -->
+    <!-- Modal -->
     <div class="modal fade" id="newTaskModal" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Agregar Historia / Tarea</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
+                <div class="modal-header"><h5 class="modal-title">Agregar Historia / Tarea</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
                 <div class="modal-body">
                     <form id="taskForm">
-                        <div class="mb-3">
-                            <label class="form-label">Título de la Tarea</label>
-                            <input type="text" id="taskTitle" class="form-control" placeholder="Ej. Pruebas de Software QA" required>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Categoría / Práctica</label>
-                            <select id="taskCategory" class="form-select">
-                                <option value="Scrum">Scrum</option>
-                                <option value="Kanban">Kanban</option>
-                                <option value="XP">XP / Calidad</option>
-                            </select>
-                        </div>
+                        <div class="mb-3"><label class="form-label">Título de la Tarea</label><input type="text" id="taskTitle" class="form-control" required></div>
+                        <div class="mb-3"><label class="form-label">Categoría / Práctica</label><select id="taskCategory" class="form-select"><option value="Scrum">Scrum</option><option value="Kanban">Kanban</option><option value="XP">XP / Calidad</option></select></div>
                         <button type="submit" class="btn btn-primary w-100">Guardar Tarea</button>
                     </form>
                 </div>
@@ -266,7 +178,15 @@ git push origin feature/login-page</code></pre>
     </div>
 
     <!-- US-04: Corrección ortográfica completada - Yerson - Metodología Kanban corregida -->
-    <!-- Script oficial Bootstrap 5.3 -->
+    <!-- US-05: Aporte personal desde develop_persona1 - Yerson - PR hacia central -->
+    <div class="container">
+        <div class="alert alert-success mt-4 shadow-sm border-2 text-center" role="alert">
+            <h5 class="alert-heading"><i class="bi bi-github me-2"></i>US-05: Aporte Personal</h5>
+            <p class="mb-0">Aporte desde <strong>develop_persona1</strong> para PR hacia <strong>develop_central/develop</strong> - Yerson M. Robles - SENATI</p>
+            <span class="badge bg-success mt-2">US-05 Completado</span>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
