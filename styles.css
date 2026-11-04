@@ -1,0 +1,83 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.nav-link {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.kanban-list {
+    min-height: 250px;
+}
+
+.kanban-card {
+    background-color: #ffffff;
+    border-left: 4px solid #0d6efd;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kanban-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.badge-scrum { background-color: #0d6efd; }
+.badge-kanban { background-color: #198754; }
+.badge-xp { background-color: #dc3545; }
+
+/* US-03: Implementar tema oscuro en styles.css - Yerson Robles - Sprint 1 */
+:root {
+    --bg-dark: #121212;
+    --card-dark: #1e1e1e;
+    --text-dark: #e0e0e0;
+    --border-dark: #333;
+}
+
+body.dark-mode {
+    background-color: var(--bg-dark) !important;
+    color: var(--text-dark) !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .bg-white,
+body.dark-mode .kanban-list {
+    background-color: var(--card-dark) !important;
+    color: var(--text-dark) !important;
+    border-color: var(--border-dark) !important;
+}
+
+body.dark-mode .kanban-card {
+    background-color: #2d2d2d !important;
+    border-color: #444 !important;
+    color: var(--text-dark) !important;
+}
+
+body.dark-mode .navbar {
+    background-color: #000 !important;
+}
+
+body.dark-mode .alert {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: var(--text-dark);
+}
+
+#themeToggleBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
